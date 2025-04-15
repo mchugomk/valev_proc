@@ -97,6 +97,6 @@ dcm2bids -d $sourcedata_dir/$source_participant_dir \
 	-p $participant_id \
 	-s $session_id \
 	-c $config_file \
-	-o $bids_dir \
-	--forceDcm2niix
+	-o $bids_dir #\
+# 	--forceDcm2niix
 
